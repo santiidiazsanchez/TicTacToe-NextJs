@@ -9,7 +9,7 @@ type ResetButtonProps = {
 
 const ResetButton: React.FC<ResetButtonProps> = ({ onClick }) => (
   <button
-    className="mt-10 font-bold p-5 bg-customPalette-primary text-customPalette-text rounded"
+    className="mt-10 mb-5 font-bold p-5 bg-customPalette-secondary text-customPalette-text rounded"
     onClick={onClick}
   >
     <FontAwesomeIcon icon={faSync} />
