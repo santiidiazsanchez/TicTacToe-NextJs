@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         customPalette: {
-          DEFAULT: "#92A8D1",
           background: "#22242a",
           primary: "#1777ff",
           secondary: "#1b1d21",
